@@ -15,5 +15,5 @@ export const routes: Routes = [
    { path: 'longchain',     component: LongchainComponent },
     { path: 'bracelet',     component: BraceletComponent },
     { path: 'bangles',     component: ContactComponent },
-  { path: '', redirectTo: '/bangles', pathMatch: 'full' }
+  { path: '', redirectTo: '/chains', pathMatch: 'full' }
 ];
